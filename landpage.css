@@ -1,0 +1,237 @@
+
+@font-face {
+  font-family:MyFont;
+  src: url(./GalacticaGrid.ttf);
+}
+
+@font-face {
+  font-family: ButtonFont;
+  src: url(./PixeloidSansBold-PKnYd.ttf);
+}
+
+/*body{
+  margin: 0;
+
+  padding :0;
+}
+.header{
+  background-color: #FFFF00;
+  height:60px;
+}
+.navbar{
+  background-color: #FFFF00;
+  }
+
+Hero-page h1{
+  margin-top: 0;
+}
+
+
+
+
+.logo{
+  background-image: url(./simon-logo.png);
+  height:50px;
+}*/
+
+
+ /*li{
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  
+  color: black;
+  font-size: 1.35rem;
+  font-family: ButtonFont;
+  margin-left: 150px;
+  gap:60px;
+  background-color: #F7EC09;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+.Hero-page{
+  background-color: #171052;
+  margin-top: 0%;
+}*/
+
+.header-name{
+
+    font-size: 3.75rem;
+    display: flex;
+    color: #F7EC09;
+    align-items: center;
+    padding: 20px;
+    font-family: MyFont;
+    justify-content: center;
+    align-content: center;
+    -webkit-text-stroke-width: 0.12rem;
+    -webkit-text-stroke-color: black;
+    margin-top: 150px;
+
+    
+  }
+  
+
+  .Button1{
+    margin-block-start: 200px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+
+  .playbutton{
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 25px 140px;
+    background-color: #F7EC09;
+    color: black;
+    border: solid black;
+    border-radius: 55px;
+    font-size: 3.2rem;
+    font-family: ButtonFont;
+    width:fit-content;
+    height: 110px;
+    justify-content: center;
+    
+    
+  }
+
+
+
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FFFF00;
+    height: 80px;
+    justify-content: space-around;
+    
+  }
+
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+  
+  nav ul li {
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    
+
+    
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.45rem;
+    font-family: ButtonFont;
+    
+  }
+  
+  .Hero-page {
+    background-color: #171052;
+    padding: 20px;
+    margin-top: 0px;
+    background-image: url(./gamePage.png);
+    background-size: cover;
+  }
+    
+
+
+  
+  
+  .Hero-page h1 {
+    margin-top: 0;
+  }
+  
+  
+  .Button1{
+    margin-top: 0;
+    padding: 4.5rem 4.5rem;
+    
+  }
+
+
+
+
+
+ /*MEDIA */
+
+  @media only screen and (max-width: 767px){
+    .Button1{
+      margin-top: 0;
+      padding: 2.5rem 2.5rem;
+      
+    }
+
+
+    nav ul li a {
+      color: black;
+      text-decoration: none;
+      padding: 7px;
+      font-size: 0.80rem;
+      font-family: ButtonFont;
+      
+    }
+
+    .playbutton{
+    
+      display: flex;
+      align-items: center;
+      align-content: center;
+      padding: 15px 110px;
+      background-color: #F7EC09;
+      color: black;
+      border: solid black;
+      border-radius: 55px;
+      font-size: 2.3rem;
+      font-family: ButtonFont;
+      width:fit-content;
+      height: 110px;
+      justify-content: center;
+      
+      
+
+    }
+
+    .header-name{
+
+      font-size: 2.5rem;
+      display: flex;
+      color: #F7EC09;
+      align-items: center;
+      padding: 15px;
+      font-family: MyFont;
+      justify-content: center;
+      align-content: center;
+      -webkit-text-stroke-width: 0.2rem;
+      -webkit-text-stroke-color: black;
+      margin-top: 130px;
+  
+      
+    }
+  
+  }

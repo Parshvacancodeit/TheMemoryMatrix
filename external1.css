@@ -1,0 +1,57 @@
+
+/*FOR ABOUT GAME SEC*/
+@font-face {
+    font-family: myFont ;
+    src: url(./PixeloidSansBold-PKnYd.ttf);
+}
+
+*{
+    background-color: #fde614;
+}
+
+.about-ttl{
+     font-size: 3.5rem;
+     font-family: myFont;
+     color: #040d30;
+     padding: 24px 24px;
+     margin-top: 50px;
+     border: solid #a81313 10px;
+     height: fit-content;
+     border-width: fit-content;
+     padding: 20px 20px;
+     display: flex;
+     justify-content: center;
+    
+}
+
+.abt-inf{
+    font-size: 2rem;
+    font-family: myFont;
+    color: #02071a;
+    padding: 10px 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.abt-inf a{
+    color: #1d2997;
+    font-weight: 700;
+
+}
+
+.st{
+    font-size: 2.1rem;
+    padding: 20px 30px;
+    font-family: myFont;
+    color: #960909;
+}
+
+.myname{
+    font-size: 1.8rem;
+    color: #082402;
+    font-weight: 500;
+}
+
+
+

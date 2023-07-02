@@ -1,0 +1,68 @@
+*{
+    background-color: #001253;
+}
+
+@font-face {
+    font-family: myFont ;
+    src: url(./PixeloidSansBold-PKnYd.ttf);
+}
+
+.mainInfo{
+    
+    padding: 24px 24px;
+    font-family: myFont;
+    font-size: 2.75rem;
+    color: #F7EC09;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke-width: 0.12rem;
+    -webkit-text-stroke-color: black;
+
+    
+
+}
+
+.Imp{
+    font-family: myFont;
+    font-size: 3rem;
+    color: #f7c009;
+    padding-top: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Rem{
+    font-family: myFont;
+    font-size: 1.5rem;
+    color: #cc980a;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 1.5rem;
+
+}
+
+
+.info{
+    display: flex;
+    align-content: center;
+    font-family: myFont;
+    color: #c9cc0a;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
